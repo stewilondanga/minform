@@ -7,27 +7,16 @@
     tools:context="io.github.stewilondanga.minform.MainActivity"
     android:background="#000000">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="M inform"
-        android:layout_marginTop="35dp"
-        android:id="@+id/textView"
-        android:textColor="@color/colorTextIcons"
-        android:textSize="40sp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:textStyle="bold"/>
-
     <Button
+        android:id="@+id/findDosomethingButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Do something"
-        android:id="@+id/findDosomethingButton"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:background="@color/colorAccent"
-        android:textColor="@color/colorTextIcons"/>
+        android:text="Do something"
+        android:textColor="@color/colorTextIcons"
+        android:visibility="visible" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -35,6 +24,7 @@
         android:layout_height="match_parent"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
+        android:adjustViewBounds="false"
         android:background="@drawable/follow"
         android:scaleType="centerInside" />
 
