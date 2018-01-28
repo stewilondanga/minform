@@ -3,7 +3,7 @@ package io.github.stewilondanga.minform;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Change extends AppCompatActivity {
+public class ChangeActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

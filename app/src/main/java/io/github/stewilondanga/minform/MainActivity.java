@@ -1,10 +1,10 @@
 package io.github.stewilondanga.minform;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     private Button mFindDosomethingButton;
@@ -15,10 +15,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         mFindDosomethingButton = (Button) findViewById(R.id.findDosomethingButton);
-                mFindDosomethingButton.setOnClickListener(new View.OnClickListener() {
+        mFindDosomethingButton.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Toast.makeText(MainActivity.this, "Make a difference!", Toast.LENGTH_LONG).show();
+                       Intent intent = new Intent(MainActivity.this, ChangeActivity.class);
+                       startActivity(intent);
                     }
                 });
     }
