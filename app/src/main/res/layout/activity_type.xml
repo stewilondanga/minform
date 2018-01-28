@@ -7,4 +7,15 @@
     tools:context="io.github.stewilondanga.minform.TypeActivity"
     android:background="@color/colorPrimaryText">
 
+    <Button
+        android:id="@+id/findTypeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimaryLight"
+        android:text="Choose a deed"
+        android:textColor="@color/colorTextIcons"
+        android:visibility="visible" />
+
 </RelativeLayout>
