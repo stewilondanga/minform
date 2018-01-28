@@ -8,6 +8,7 @@ import android.widget.Button;
 
 public class ChangeActivity extends AppCompatActivity {
     private Button mFindCauseButton;
+    private Button mFindTimeButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +20,15 @@ public class ChangeActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(ChangeActivity.this, CauseActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        mFindTimeButton = (Button) findViewById(R.id.findTimeButton);
+        mFindTimeButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ChangeActivity.this, TimeActivity.class);
                 startActivity(intent);
             }
         });

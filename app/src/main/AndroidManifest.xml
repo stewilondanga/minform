@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".ChangeActivity" />
-        <activity android:name=".CauseActivity"></activity>
+        <activity android:name=".CauseActivity" />
+        <activity android:name=".TimeActivity"></activity>
     </application>
 
 </manifest>
