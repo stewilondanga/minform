@@ -7,4 +7,17 @@
     tools:context="io.github.stewilondanga.minform.CauseActivity"
     android:background="@color/colorPrimaryText">
 
+    <Button
+        android:id="@+id/findCausesButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="11dp"
+        android:background="@color/colorPrimaryLight"
+        android:text="Find a cause"
+        android:textColor="@color/colorTextIcons"
+        android:visibility="visible" />
+
 </RelativeLayout>
