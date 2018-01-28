@@ -23,6 +23,6 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:background="@drawable/follow"
-        android:src="@drawable/follow" />
+        android:scaleType="centerInside" />
 
 </RelativeLayout>
