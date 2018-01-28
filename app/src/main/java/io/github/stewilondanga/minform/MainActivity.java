@@ -2,8 +2,10 @@ package io.github.stewilondanga.minform;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
+    private Button mFindDosomethingButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
