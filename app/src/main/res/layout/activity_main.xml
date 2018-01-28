@@ -19,6 +19,16 @@
         android:layout_centerHorizontal="true"
         android:textStyle="bold"/>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Do something"
+        android:id="@+id/findDosomethingButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorTextIcons"/>
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
