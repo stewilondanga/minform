@@ -7,7 +7,7 @@
     android:background="@color/colorTextIcons">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/findCauseButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
@@ -20,7 +20,7 @@
         android:background="@color/colorPrimaryLight"/>
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/findTimeButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -33,7 +33,7 @@
         android:background="@color/colorPrimaryLight"/>
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/findTypeButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/button3"
@@ -51,6 +51,6 @@
         android:layout_above="@+id/button4"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="57dp"
-        android:background="@drawable/Change" />
+        android:background="@drawable/change" />
 
 </RelativeLayout>
