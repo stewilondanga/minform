@@ -16,28 +16,6 @@
         android:background="@color/colorPrimaryLight"
         android:text="Cause" />
 
-    <Button
-        android:id="@+id/findTimeButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/imageView2"
-        android:layout_alignParentBottom="true"
-        android:layout_alignStart="@+id/imageView2"
-        android:layout_marginBottom="107dp"
-        android:background="@color/colorPrimaryLight"
-        android:text="Time" />
-
-    <Button
-        android:id="@+id/findTypeButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/findTimeButton"
-        android:layout_alignBottom="@+id/findTimeButton"
-        android:layout_alignEnd="@+id/imageView2"
-        android:layout_alignRight="@+id/imageView2"
-        android:background="@color/colorPrimaryLight"
-        android:text="Type" />
-
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="wrap_content"
