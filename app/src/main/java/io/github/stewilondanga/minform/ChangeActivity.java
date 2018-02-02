@@ -20,6 +20,7 @@ public class ChangeActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(ChangeActivity.this, CauseActivity.class);
                 startActivity(intent);
+
             }
         });
     }
