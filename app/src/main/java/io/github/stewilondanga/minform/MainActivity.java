@@ -1,13 +1,16 @@
 package io.github.stewilondanga.minform;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     private Button mFindDosomethingButton;
+    private TextView mMinformTextView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,5 +25,9 @@ public class MainActivity extends AppCompatActivity {
                        startActivity(intent);
                     }
                 });
+
+        mMinformTextView = (TextView) findViewById(R.id.main_text);
+        Typeface LeanderFont = Typeface.createFromAsset(getAssets(), "fonts/Leander.ttf");
+        mMinformTextView.setTypeface(LeanderFont);
     }
 }

@@ -14,11 +14,13 @@
         android:src="@drawable/unite" />
 
     <TextView
+        android:id="@+id/main_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
         android:text="M - inform"
         android:textColor="@color/colorDivider"
-        android:fontFamily="@android:"
         android:textSize="36dp"/>
     <Button
         android:id="@+id/findDosomethingButton"
