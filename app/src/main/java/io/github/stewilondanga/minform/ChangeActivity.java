@@ -5,10 +5,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TimePicker;
+import android.widget.TextView;
+import android.graphics.Typeface;
 
 public class ChangeActivity extends AppCompatActivity {
     private Button mSpareSomeTimeButton;
+    private TextView mChangeTextView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,5 +26,9 @@ public class ChangeActivity extends AppCompatActivity {
 
             }
         });
+
+        mChangeTextView = (TextView) findViewById(R.id.change_text);
+        Typeface LeanderFont = Typeface.createFromAsset(getAssets(), "fonts/Leander.ttf");
+        mChangeTextView.setTypeface(LeanderFont);
     }
 }

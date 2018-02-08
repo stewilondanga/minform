@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     private Button mFindDosomethingButton;
-    private TextView mMinformTextView;
+    private TextView mMainTextView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,8 +26,8 @@ public class MainActivity extends AppCompatActivity {
                     }
                 });
 
-        mMinformTextView = (TextView) findViewById(R.id.main_text);
+        mMainTextView = (TextView) findViewById(R.id.main_text);
         Typeface LeanderFont = Typeface.createFromAsset(getAssets(), "fonts/Leander.ttf");
-        mMinformTextView.setTypeface(LeanderFont);
+        mMainTextView.setTypeface(LeanderFont);
     }
 }
