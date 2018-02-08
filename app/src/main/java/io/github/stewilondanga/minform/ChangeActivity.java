@@ -5,20 +5,21 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TimePicker;
 
 public class ChangeActivity extends AppCompatActivity {
-    private Button mFindCauseButton;
+    private Button mSpareSomeTimeButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_change);
 
-        mFindCauseButton = (Button) findViewById(R.id.findCauseButton);
-        mFindCauseButton.setOnClickListener(new View.OnClickListener() {
+        mSpareSomeTimeButton = (Button) findViewById(R.id.findCauseButton);
+        mSpareSomeTimeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(ChangeActivity.this, CauseActivity.class);
+                Intent intent = new Intent(ChangeActivity.this, TimeActivity.class);
                 startActivity(intent);
 
             }

@@ -7,35 +7,30 @@
     android:background="@color/colorTextIcons">
 
     <Button
-        android:id="@+id/findCauseButton"
-        android:layout_width="wrap_content"
+        android:id="@+id/findSpareSomeTimeButton"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:background="@color/colorPrimaryLight"
-        android:text="Find a Cause" />
+        android:text="Spare some time" />
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginBottom="20dp"
-        android:layout_marginEnd="42dp"
-        android:layout_marginRight="42dp"
         android:background="@drawable/change" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/findCauseButton"
+        android:layout_height="240dp"
+        android:layout_above="@+id/findSpareSomeTimeButton"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="47dp"
-        android:text="Welcome and thank you for choosing this charity organization. You are required to choose a cause, declare the time you devote and choose how to help."
-        android:textSize="20dp"
-        android:background="@color/colorPrimary" />
+        android:text="Welcome and thank you for choosing this charity organization which will be using the dosomething.org API. You are required to declare the time you devote, choose a cause and finally do something to help."
+        android:textSize="25dp"
+        android:textColor="@color/colorPrimaryLight"
+        android:background="@color/colorPrimaryText" />
 
 </RelativeLayout>
