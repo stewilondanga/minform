@@ -5,16 +5,51 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="io.github.stewilondanga.minform.TimeActivity"
-    android:background="@color/colorPrimaryText">
+    android:background="@drawable/time">
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorDivider"
+        android:id="@+id/checkBox1"
+        android:text="One hour"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="34sp"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"/>
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox1"
+        android:text="Two to Five hours"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="34sp"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorDivider" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox2"
+        android:text="Five plus hours"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="34sp"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorDivider" />
+
 
     <Button
         android:id="@+id/findTimeButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="21dp"
         android:background="@color/colorPrimaryLight"
         android:text="Time you devote"
         android:textColor="@color/colorTextIcons"

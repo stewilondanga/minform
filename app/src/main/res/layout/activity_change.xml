@@ -18,9 +18,9 @@
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
-        android:layout_height="230dp"
+        android:layout_height="260dp"
         android:layout_alignParentBottom="true"
-        android:background="@drawable/change" />
+        android:src="@drawable/change" />
 
     <TextView
         android:id="@+id/change_text"
