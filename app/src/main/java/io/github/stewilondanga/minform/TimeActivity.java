@@ -6,9 +6,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.graphics.Typeface;
 
 public class TimeActivity extends AppCompatActivity {
     private Button mFindTimeButton;
+    private CheckBox mChangeCheckBox1;
+    private CheckBox mChangeCheckBox2;
+    private CheckBox mChangeCheckBox3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +38,15 @@ public class TimeActivity extends AppCompatActivity {
 
                 Intent intent = new Intent(TimeActivity.this, CauseActivity.class);
                 startActivity(intent);
+
+                mChangeCheckBox1 = (CheckBox) findViewById(R.id.checkBox1);
+                mChangeCheckBox2 = (CheckBox) findViewById(R.id.checkBox2);
+                mChangeCheckBox3 = (CheckBox) findViewById(R.id.checkBox3);
+                Typeface LeanderFont = Typeface.createFromAsset(getAssets(), "fonts/Leander.ttf");
+                mChangeCheckBox1.setTypeface(LeanderFont);
+                mChangeCheckBox2.setTypeface(LeanderFont);
+                mChangeCheckBox3.setTypeface(LeanderFont);
+
             }
         });
 
