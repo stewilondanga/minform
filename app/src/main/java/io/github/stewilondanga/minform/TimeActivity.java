@@ -32,7 +32,8 @@ public class TimeActivity extends AppCompatActivity {
                 CheckBox checkBox3 = (CheckBox) findViewById(R.id.checkBox3);
                 boolean fivePlusHours = checkBox3.isChecked();
 
-
+                Intent intent = new Intent(TimeActivity.this, CauseActivity.class);
+                startActivity(intent);
             }
         });
 
