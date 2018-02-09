@@ -20,7 +20,6 @@
         <activity android:name=".ChangeActivity" />
         <activity android:name=".CauseActivity" />
         <activity android:name=".TimeActivity" />
-        <activity android:name=".TypeActivity"></activity>
     </application>
 
 </manifest>
