@@ -19,7 +19,9 @@ public class TimeActivity extends AppCompatActivity {
         mFindTimeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Code here executes on main thread after user presses button
+                CheckBox checkBox1 = (CheckBox) findViewById(R.id.checkBox1);
+                CheckBox checkBox2 = (CheckBox) findViewById(R.id.checkBox2);
+                CheckBox checkBox3 = (CheckBox) findViewById(R.id.checkBox3);
             }
         });
 
